@@ -1,0 +1,30 @@
+{
+    "name": "ujs-safefile",
+    "description": "Autorecovery File Handler",
+    "version": "0.1.0",
+    "author": {
+        "name": "Joe McIntyre",
+        "email": "j_h_mcintyre@yahoo.com",
+        "url": "http://joemcintyre.github.io"
+    },
+    "keywords": ["bookujs", "file"],
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/usingjsonschema/ujs-safefile-nodejs"
+    },
+    "license": "MIT",
+    "bugs": {
+        "url": "https:github.com/usingjsonschema/ujs-safefile-nodejs/issues"
+    },
+    "main": "./lib/index.js",
+    "dependencies": {
+        "ujs-format": "0.1.0"
+    },
+    "scripts": {
+        "test": "mocha ./test/test_safeFile.js"
+    },
+    "devDependencies": {
+        "mocha": ""
+    }
+}
+
