@@ -1,13 +1,16 @@
 # Safe File
 
-[![Build Status](https://secure.travis-ci.org/usingjsonschema/ujs-safefile-nodejs.png?branch=master)](http://travis-ci.org/usingjsonschema/ujs-safefile-nodejs)
-
 Part of the [Using JSON Schema](http://usingjsonschema.github.io) project.
 
-Safely managing text files requires being able to update the files in a
-manner that allows recovery should the update fail. This module provides
-support for reading and writing files normally and in a recoverable mode,
-allowing auto-recovery when the program restarts.
+Robust storage using text files is enhanced with support for automated recovery
+should an update fail. 
+
+This library provides support for reading and writing files in a recoverable
+mode, allowing automated recovery when the program restarts. Normal file
+read / write is also supported, enabling a common interface for both files
+using automated recovery capabilities and those not using them.
+
+[![Build Status](https://secure.travis-ci.org/usingjsonschema/ujs-safefile-nodejs.png?branch=master)](http://travis-ci.org/usingjsonschema/ujs-safefile-nodejs)
 
 ## readFileSync
 
